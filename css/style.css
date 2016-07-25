@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Blessed Day";
+  /* Имя шрифта */
+  src: url("../font/BlessedDay.otf");
+  /* Путь к файлу со шрифтом */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.3;
+  width: 1500px;
+  margin: 0 auto;
+  background: #2C3E50;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.home__header {
+  background: #575E64 url("../img/index__header--bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  временно*/
+  min-height: 880px;
+}
+
+.header__logo {
+  display: inline-block;
+  font-family: "Blessed Day", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  color: white;
+  padding-right: 135px;
+}
+
+.header__nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 85px;
+  margin-left: 50px;
+}
+
+.header__nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.nav__item {
+  text-decoration: none;
+  padding-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.nav__item--active {
+  border-bottom: 3px solid #1ABC9C;
+}
+
+.header__login {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 85px;
+  padding-left: 20px;
+}
+
+.header__login a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.header__title {
+  display: block;
+  width: 490px;
+  padding-top: 160px;
+  padding-left: 460px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.header__title--caption {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.header_title--text {
+  padding-top: 40px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.btn {
+  display: block;
+  width: 170px;
+  height: 60px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 400;
+  color: white;
+  background: #1ABC9C;
+}
+
+.btn__purchasenow {
+  background: #1ABC9C;
+  float: left;
+}
+
+.btn__purchasenow::after {
+  content: "or";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 30px;
+  position: relative;
+  top: -75%;
+  right: -95.5%;
+  pointer-events: none;
+  font-size: 15px;
+  line-height: 1.8;
+  color: black;
+}
+
+.btn__leadermore {
+  background: #3498DB;
+  float: right;
+}
+
+.container--2btn {
+  display: block;
+  width: 354px;
+  padding-top: 60px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.home__main {
+  background: white;
+}
+
+.main__aboutus {
+  padding-top: 100px;
+  padding-bottom: 130px;
+  color: #34495E;
+  background-image: url(../img/aboutus-statistics.png);
+  background-repeat: no-repeat;
+  background-position: 700px 90px;
+}
+
+.aboutus__title {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+
+.aboutus__text {
+  display: block;
+  width: 610px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.main__services{
+  background: #F6F6F6;
+  
+  color: #2C3E50;
+}
+
+.main__services--item{
+  display: inline-block;
+  width: 300px;
+  
+  padding-top: 80px;
+  padding-bottom: 90px;
+  padding-left: 10px;
+}
+.service__image{
+  display: block;
+  margin: 0 auto;
+}
+.servise__title{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.service__text{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}
+
+.slider{
+  min-height: 580px;
+  
+  background: white url(../img/slider-bg.jpg);
+  background-repeat: no-repeat;
+  
+  text-align: center;
+  color: white;
+  
+}
+.slider__title{
+  font-size: 32px;
+  font-weight: 400;
+  
+  padding-top: 60px;
+}
+.slider__text{
+  font-size: 22px;
+  font-weight: 200;
+}
+.slider__arrow{
+  padding-top: 90px; 
+}
+.slider__arrow.left{
+float: left;
+}
+.slider__arrow.right{
+  float: right;
+  transform: rotate(180deg);
+  padding-bottom: 90px; 
+  padding-top: 0; 
+}
+.slider__image{
+  padding-top: 70px;
+}
